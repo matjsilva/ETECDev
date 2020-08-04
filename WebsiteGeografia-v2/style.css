@@ -1,0 +1,153 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    border: 0px solid black;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+ul{
+    font-family: Arial;
+    padding-top: 380px;
+    padding-left: 720px;
+    overflow: hidden;
+    font-size: 22px;
+    color: black;
+}
+
+li{
+    float: left;
+    list-style-type: none;
+    background-color: black;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover{
+    background-color: #3b3b3b;
+}
+
+table{
+    font-family: Arial, Sans-Serif;
+    border-collapse: collapse;
+    width: 65%;
+}
+
+td, th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: gray;
+}
+
+tr{
+    background-color: #b3b3b3;
+}
+
+.header{
+    height: 450px;
+    position: relative;
+    font-family: Arial;
+}
+
+.header-title{
+    position: absolute;
+    bottom: 20px;
+    right: 815px;
+    width: 500px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.content{
+    height: 450px;
+    font-family: Arial;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 20px;
+    background-color: #e0e0e0;
+}
+
+.footer{
+    height: 100px;
+    font-family: Arial;
+    background-color: white;
+    text-align: center;
+}
+
+.modulos{
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 370px;
+}
+
+.modulos:hover{
+    border: 1px solid #777;
+}
+
+.modulos img{
+    width: 100%;
+    height: auto;
+}
+
+.content-title{
+    text-align: center;
+    font-style: italic;
+}
+
+.mod-desc{
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+}
+
+#mod1-aside{
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+}
+
+#mod2-aside{
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+}
+
+#mod3-aside{
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+}

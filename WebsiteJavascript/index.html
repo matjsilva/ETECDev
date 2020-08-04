@@ -1,0 +1,87 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>JS em HTML - Programação Web</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="header" style="background-image: url(img/background.jpeg)">
+            <div class="header-title">
+                <h1><b>Javascript</b></h4>
+                <p><b>Algumas interações possíveis</b></p>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="modulos">
+                <button onclick="mensagemAlerta();">
+                    <img src="img/exclamacao.jpg" width="1000" height="800">
+                </button>
+                <div class="mod-desc">alert() - Mensagem de alerta</div>
+            </div>
+            <div class="modulos">
+                <button onclick="testeIdade();">
+                    <img src="img/condicao.png" width="1000" height="800">
+                </button>
+                <div class="mod-desc">
+                    if(){} - Teste com condição
+
+                    <form id="form1">
+                        Nome: <input type="text" name="nome1" id="nome1" value="Fulano"><br>
+                        Idade:  <input type="test" name="idade1" id="idade1" value="18"><br><br>
+                    </form>
+                </div>
+            </div>
+            <div class="modulos">
+                <button onclick="enquantoNum();">
+                    <img src="img/while.jpg" width="1000" height="800">
+                </button>
+                <div class="mod-desc">
+                    while() - Loop booleano (0, 1)
+                    <form id="form1">
+                        Número: <input type="text" name="num1" id="num1" value="10"><br>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <footer>
+                <p>&copy; Matheus Justino Gonçalves da Silva - Nº 32</p>
+                <p>&copy; Márcio de Jesus Siqueira Filho - Nº 28</p>
+            </footer>
+        </div>
+    </body>
+    <script type="text/javascript">
+        function mensagemAlerta(){
+            alert("Isso é uma mensagem de alerta!");
+        }
+
+        function testeIdade(){
+            let nome = document.getElementById("nome1").value;
+            let idade = document.getElementById("idade1").value;
+
+            if (idade < 18){
+                alert("Seu nome é "+nome+" e você é menor de idade ("+idade+" anos)");
+            } else{
+                alert("Seu nome é "+nome+" e você é maior de idade ("+idade+" anos)");
+            }
+        }
+
+        function enquantoNum(){
+            let num = document.getElementById("num1").value;
+            let i = num;
+
+            while(i > 0){
+                if (i > 1){
+                    alert("Faltam "+i+" cliques para encerrar o loop");
+                } else{
+                    alert("Falta apenas "+i+" clique para encerrar o loop");
+                }
+                i--;
+            }
+        }
+    </script>
+</html>

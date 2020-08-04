@@ -1,0 +1,84 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    border: 0px solid black;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button{
+    border: 0px solid black;
+}
+
+ul{
+    font-family: Arial;
+    padding-top: 380px;
+    padding-left: 720px;
+    overflow: hidden;
+    font-size: 22px;
+    color: black;
+}
+
+.header{
+    height: 450px;
+    position: relative;
+    font-family: Arial;
+}
+
+.header-title{
+    position: absolute;
+    bottom: 20px;
+    right: 815px;
+    width: 500px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.content{
+    height: 550px;
+    font-family: Arial;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 20px;
+    background-color: #e0e0e0;
+}
+
+.footer{
+    height: 100px;
+    font-family: Arial;
+    background-color: white;
+    text-align: center;
+}
+
+.modulos{
+    margin-left: 35px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 370px;
+}
+
+.modulos:hover{
+    border: 1px solid #777;
+}
+
+.modulos img{
+    width: 100%;
+    height: auto;
+}
+
+.content-title{
+    text-align: center;
+    font-style: italic;
+}
+
+.mod-desc{
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+}
