@@ -1,0 +1,13 @@
+/*Deixa o efeito de rolagem da página com uma animação suave*/
+html{
+    scroll-behavior: smooth;
+}
+
+/*Apenas mudando a cor da navbar*/
+.navbar-custom{
+    background-color: #2ECD51;
+    border-bottom-color: #2FB84D;
+}
+
+/*Mudando a cor do hovering da navbar*/
+ul.nav a:hover { background-color: #2FB84D !important; }
